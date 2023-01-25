@@ -1,0 +1,30 @@
+[
+   {
+      "id":"North",
+      "license_plate":"BA-201-C",
+      "check_in":"2022-01-02 11:30:00.000",
+      "check_out":"2022-01-02 12:00:00.000",
+      "parking_fee":1.5
+   },
+   {
+      "id":"North",
+      "license_plate":"AF-101-E",
+      "check_in":"2022-01-01 11:00:00.000",
+      "check_out":"2022-01-01 18:30:00.000",
+      "parking_fee":12
+   },
+   {
+      "id":"North",
+      "license_plate":"AF-101-E",
+      "check_in":"2022-01-01 11:00:00.000",
+      "check_out":"2022-01-01 18:30:00.000",
+      "parking_fee":12
+   },
+   {
+      "id":"North",
+      "license_plate":"DD-222-F",
+      "check_in":"2022-01-01 09:00:00.000",
+      "check_out":"2022-01-01 17:00:00.000",
+      "parking_fee":12
+   }
+]
