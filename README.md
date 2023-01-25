@@ -43,6 +43,27 @@ The `CarParkingMachine` class has the following methods:
 - `check_out(license_plate: str) -> float`: allows a car to check-out of the parking machine. It returns the parking fee of the car.
 - `get_parking_fee(license_plate: str) -> float`: calculates and returns the parking fee of the car.
 
+# Carparkingreports.py
+
+This file contains functions that generate various reports on the parked cars in the car parking system.
+
+## Functions
+- `generate_parked_cars_report(machine_name, from_date, to_date)`: generates a CSV report of all the parked cars in the specified car parking machine within the specified date range.
+- `generate_total_fee_report(from_date, to_date)`: generates a CSV report of the total parking fees for each car parking machine within the specified date range.
+- `generate_complete_parkings_report()`: generates a CSV report for each car, containing all their complete parkings in the car parking system.
+
+## Usage
+
+```python
+#To generate a report of all the parked cars in a specific car parking machine within a date range, call the function 
+generate_parked_cars_report("carparkingmachine1", "2022-01-01", "2022-02-01")
+
+#To generate a report of the total parking fees for each car parking machine within a date range, call the function 
+generate_total_fee_report("2022-01-01", "2022-02-01")
+
+#To generate a report for each car, containing all their complete parkings in the car parking system, call the function 
+generate_complete_parkings_report()
+
 ## Authors
 
 * **[Ömer Faruk KOÇ]** - [Github](https://github.com/negativexq)
