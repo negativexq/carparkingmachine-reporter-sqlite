@@ -68,6 +68,13 @@ Note: These functions assume that the data is stored in JSON files, named after 
 
 The generated reports will be in CSV format and will be saved in the current directory.
 ```
+# test_carparkingreports.py
+
+This file contains unit tests for the functions in the `carparkingreports.py` file.
+
+## Dependencies
+- `carparking.py`: contains the `CarParkingMachine` class that is used in the tests.
+- `unittest`: built-in Python library for creating unit tests.
 
 ## Authors
 
