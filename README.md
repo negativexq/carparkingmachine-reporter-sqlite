@@ -64,6 +64,11 @@ generate_total_fee_report("2022-01-01", "2022-02-01")
 #To generate a report for each car, containing all their complete parkings in the car parking system, call the function 
 generate_complete_parkings_report()
 
+Note: These functions assume that the data is stored in JSON files, named after the corresponding car parking machine.
+
+The generated reports will be in CSV format and will be saved in the current directory.
+```
+
 ## Authors
 
 * **[Ömer Faruk KOÇ]** - [Github](https://github.com/negativexq)
